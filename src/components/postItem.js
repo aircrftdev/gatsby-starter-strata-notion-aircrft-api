@@ -14,9 +14,9 @@ export default ({ data }) => {
                 style={{ width: '100%' }}
                 src={coverimageURL}
               />
-              <h1 style = {{ color: "black" }}>{title}</h1>
-              <div style = {{color: "grey", margin: '-30px 0px 0px 0px'}}>Tags: {tags && tags.join(', ')}<br></br>Published: {publish_date.startDate}<br></br>Read Time: {read_time} mins</div>
-              <p style = {{ color: "black", margin: '15px 0px 30px 0px' }} dangerouslySetInnerHTML={{ __html: desc }}></p>
+              <div style = {{color: "grey"}}>Tags: {tags && tags.join(', ')} • Published: {publish_date.startDate} • {read_time} MIN READ</div>
+              <h2>{title}</h2>
+              <p style = {{ color: "black" }} dangerouslySetInnerHTML={{ __html: desc }}></p>
             </Link>
         </div>
     )
