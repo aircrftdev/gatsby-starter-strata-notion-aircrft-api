@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>Blogging is a great way to start learning what appeals to your audience. It is a relatively slow but inexpensive method of aggregating analytic data. Start by listing topics to write about, write consistently, and share your posts, articles, and newsletter across your business social media channels.<br />Get inspired and learn how harness your new superpower with our Build, Launch, Learn in Public Video Series<a href="https://blog.aircrft.com/" target="_blank">Aircrft blog</a> Watch this video for a demo on running your new blogging engine  <a href="https://aircrft.com" target="_blank">Aircrft Blog Lift-off</a></p>
                         <ul className="actions">
-                            <li><a href="https://www.youtube.com/watch?v=dMYKXVf88J0" target="_blank" className="button">Demo & Operating Manual</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=dMYKXVf88J0" target="_blank" className="button">Pre-fligt check list</a></li>
                         </ul>
                     </section>
 
